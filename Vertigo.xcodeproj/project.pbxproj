@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC5C9801C784C570053EAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC5C97F1C784C570053EAED /* AppDelegate.swift */; };
+		3EC5C9821C784C570053EAED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC5C9811C784C570053EAED /* ViewController.swift */; };
+		3EC5C9851C784C570053EAED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC5C9831C784C570053EAED /* Main.storyboard */; };
+		3EC5C9871C784C570053EAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EC5C9861C784C570053EAED /* Assets.xcassets */; };
+		3EC5C98A1C784C570053EAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EC5C9881C784C570053EAED /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3EC5C97C1C784C570053EAED /* Vertigo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vertigo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EC5C97F1C784C570053EAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3EC5C9811C784C570053EAED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3EC5C9841C784C570053EAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3EC5C9861C784C570053EAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3EC5C9891C784C570053EAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3EC5C98B1C784C570053EAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3EC5C9791C784C570053EAED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EC5C9731C784C570053EAED = {
+			isa = PBXGroup;
+			children = (
+				3EC5C97E1C784C570053EAED /* Vertigo */,
+				3EC5C97D1C784C570053EAED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3EC5C97D1C784C570053EAED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3EC5C97C1C784C570053EAED /* Vertigo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EC5C97E1C784C570053EAED /* Vertigo */ = {
+			isa = PBXGroup;
+			children = (
+				3EC5C97F1C784C570053EAED /* AppDelegate.swift */,
+				3EC5C9811C784C570053EAED /* ViewController.swift */,
+				3EC5C9831C784C570053EAED /* Main.storyboard */,
+				3EC5C9861C784C570053EAED /* Assets.xcassets */,
+				3EC5C9881C784C570053EAED /* LaunchScreen.storyboard */,
+				3EC5C98B1C784C570053EAED /* Info.plist */,
+			);
+			path = Vertigo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3EC5C97B1C784C570053EAED /* Vertigo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EC5C98E1C784C570053EAED /* Build configuration list for PBXNativeTarget "Vertigo" */;
+			buildPhases = (
+				3EC5C9781C784C570053EAED /* Sources */,
+				3EC5C9791C784C570053EAED /* Frameworks */,
+				3EC5C97A1C784C570053EAED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vertigo;
+			productName = Vertigo;
+			productReference = 3EC5C97C1C784C570053EAED /* Vertigo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3EC5C9741C784C570053EAED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Simon Gladman";
+				TargetAttributes = {
+					3EC5C97B1C784C570053EAED = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 3EC5C9771C784C570053EAED /* Build configuration list for PBXProject "Vertigo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3EC5C9731C784C570053EAED;
+			productRefGroup = 3EC5C97D1C784C570053EAED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EC5C97B1C784C570053EAED /* Vertigo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3EC5C97A1C784C570053EAED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC5C98A1C784C570053EAED /* LaunchScreen.storyboard in Resources */,
+				3EC5C9871C784C570053EAED /* Assets.xcassets in Resources */,
+				3EC5C9851C784C570053EAED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EC5C9781C784C570053EAED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC5C9821C784C570053EAED /* ViewController.swift in Sources */,
+				3EC5C9801C784C570053EAED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3EC5C9831C784C570053EAED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EC5C9841C784C570053EAED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3EC5C9881C784C570053EAED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3EC5C9891C784C570053EAED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3EC5C98C1C784C570053EAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3EC5C98D1C784C570053EAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3EC5C98F1C784C570053EAED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vertigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.Vertigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3EC5C9901C784C570053EAED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Vertigo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.flexmonkey.Vertigo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3EC5C9771C784C570053EAED /* Build configuration list for PBXProject "Vertigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC5C98C1C784C570053EAED /* Debug */,
+				3EC5C98D1C784C570053EAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EC5C98E1C784C570053EAED /* Build configuration list for PBXNativeTarget "Vertigo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EC5C98F1C784C570053EAED /* Debug */,
+				3EC5C9901C784C570053EAED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3EC5C9741C784C570053EAED /* Project object */;
+}
